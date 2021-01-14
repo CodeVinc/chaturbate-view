@@ -1,0 +1,90 @@
+body {
+    margin: 0; 
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+	font-family: 'Noto Sans JP', sans-serif !important;
+	background-color: black;
+}
+
+.container-to-video {
+    margin: 50px auto;
+    width: 950px;
+}
+.container {
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+	color: rgb(206, 206, 206);
+	bottom: 10px;
+	margin: 10px auto;
+	text-align: center;
+	width: 100%;
+}
+
+#ads-conteiner {
+	position: absolute;
+	width: 100%;
+	z-index: 1000;
+	display: flex;
+	justify-content: center;
+}
+
+#ads-conteiner #ads-box {
+	margin: 6em auto;
+	color: #999;
+	background-color: #4a5464;
+	padding: 1em 1em;
+	border-radius: 3px;
+}
+
+#ads-conteiner #ads-box #ads-img {
+	position: relative;
+}
+
+#ads-conteiner #ads-close {
+	text-align: center;
+	width: 60px;
+	height: 25px;
+	position: relative;
+	color: red;
+	font-size: 12pt;
+	font-weight: 800;
+	float: right;
+	background-color: black;
+	border-radius: 5px;
+	left: 10px;
+	top: -10px;
+	cursor: pointer;
+}
+
+#submit-btn {
+    border: none;
+    border-radius: 30px;
+    height: 35px;
+    width: 100px;
+    background-color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+#form-btn {
+    border: none;
+    border-radius: 30px;
+    height: 35px;
+    width: 500px;
+    background-color: white;
+    font-weight: 500;
+    padding-left: 20px;
+}
+
+@media only screen and ( max-width: 700px ) {
+
+    #form-btn {  width: auto };
+    #submit-btn { text-align: center; margin-top: 2em; }
+	#ads-conteiner #ads-box { margin: 4em auto; }
+}
