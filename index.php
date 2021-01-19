@@ -23,20 +23,20 @@ if(!empty($_GET['username'])) {
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta http-equiv=   "Content-Type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chaturbate View [BOT]</title>
-    <meta property="og:type" content="website"/>
-    <meta property="og:title" content="Chaturbate View [BOT]" />
-    <meta property="og:description" content="Free Adult Live Webcams" />
-    <link rel="icon" type="image/x-icon" href="https://ssl-ccstatic.highwebmedia.com/favicons/favicon.ico">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Chaturbate View [BOT]</title>
+	<meta property="og:type" content="website"/>
+	<meta property="og:title" content="Chaturbate View [BOT]" />
+	<meta property="og:description" content="Free Adult Live Webcams" />
+	<link rel="icon" type="image/x-icon" href="https://ssl-ccstatic.highwebmedia.com/favicons/favicon.ico">
 	<link rel="stylesheet" href="https://cdn.plyr.io/3.6.3/plyr.css"/>
 	<link rel="stylesheet" type="text/css" href="files/style.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300&display=swap" rel="stylesheet"> 
 	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
-    <script src="https://cdn.plyr.io/3.6.3/plyr.js"></script>
+	<script src="https://cdn.plyr.io/3.6.3/plyr.js"></script>
 </head>
 <body>
 <!-- ads -->
